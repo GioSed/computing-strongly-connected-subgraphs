@@ -1,4 +1,4 @@
-# minimal-scs-computation
+# minimal-scss-computation
 
 This repository contains an implementation of an algorithm to compute a **Minimal Strongly Connected Spanning Subgraph (SCSS)** from a given strongly connected graph. The goal of the algorithm is to identify a subgraph with the least number of edges that still maintains strong connectivity.
 
