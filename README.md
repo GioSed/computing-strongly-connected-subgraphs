@@ -61,6 +61,6 @@ For large input graphs it is recommended to increase the maximum heap size to av
 
 ```bash
 java -Xmx8192m SubgraphComputation <graph_file.txt>
-
+```
 The output will include details about each iteration, the minimal spanning subgraph result, and performance statistics.
 
