@@ -57,24 +57,10 @@ To run the algorithm from the command line, use the following command:
 ```bash
 java SubgraphComputation <graph_file.txt>
 ```
+For large input graphs it is recommended to increase the maximum heap size to avoid memory issues. Use the following command:
 
-### Example
-For a graph file `graph.txt` with the following contents:
-```
-5
-6
-1 2
-2 3
-3 4
-4 5
-5 1
-2 4
-```
-
-You would run the program as follows:
 ```bash
-java SubgraphComputation graph.txt
-```
+java -Xmx8192m SubgraphComputation <graph_file.txt>
 
 The output will include details about each iteration, the minimal spanning subgraph result, and performance statistics.
 
